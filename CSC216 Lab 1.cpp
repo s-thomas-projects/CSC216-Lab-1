@@ -25,7 +25,7 @@ public:
 
 void particle_walk(short N, short M)
 {
-    short D = 0;
+    short D;
     bool rand_value;
     for(short i = 1; i <= M; i++)
     {
